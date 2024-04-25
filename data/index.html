@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exotic Animals Legality by State</title>
+  <style>
+    .disclaimer {
+      font-style: italic;
+      color: #666;
+      margin-top: 20px;
+    }
+  </style>
+  <script>
+    // Function to fetch data from the API and populate the table
+    async function fetchData() {
+      const searchValue = document.getElementById('search').value; // Get the search query
+      const apiUrl = `arn:aws:execute-api:us-east-1:772598731741:nx5ubt2m01/*/GET/state=${searchValue}`;
+      
+      try {
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+
+        // Populate the table
+        const tableBody = document.getElementById('table-body');
+        tableBody.innerHTML = ''; // Clear previous data
+        
+        // Create a row and cells for the table
+        const row = document.createElement('tr');
+        const columns = ['State Name', 'Exotic Animals That Are Legal to Own', 'Exotic Animals That Are Illegal to Own', 'Special Permits or Licenses Required to Legally Own Exotic Animals', 'State Statutes (Laws)'];
+        
+        columns.forEach(column => {
+          const cell = document.createElement('td');
+          cell.textContent = data[column.toLowerCase()]; // Assuming the API response is an object with keys corresponding to column names
+          row.appendChild(cell);
+        });
+
+        tableBody.appendChild(row);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>Exotic Animals Legality by State</h1>
+  <input type="text" id="search" placeholder="Enter state name">
+  <button onclick="fetchData()">Search</button>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>State Name</th>
+        <th>Exotic Animals That Are Legal to Own</th>
+        <th>Exotic Animals That Are Illegal to Own</th>
+        <th>Special Permits or Licenses Required</th>
+        <th>State Statutes (Laws)</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+      <!-- Table data will be populated here -->
+    </tbody>
+  </table>
+
+  <p class="disclaimer">Disclaimer: This is not legal advice. There may also be county and municipal restrictions on pets. Please consult your local laws to be sure before buying an exotic pet!</p>
+</body>
+</html>

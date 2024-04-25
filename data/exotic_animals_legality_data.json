@@ -1,0 +1,941 @@
+{
+    "exotic_animals_legality_table": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "state": {
+                        "S": "South Dakota"
+                    },
+                    "legal_to_own": {
+                        "SS": [
+                            "Red deer",
+                            "Urials",
+                            "Hybrids of any of the above",
+                            "Axis deer",
+                            "Barbary sheep",
+                            "Sika deer",
+                            "Pere David's deer",
+                            "Blue sheep",
+                            "Auodads",
+                            "Mouflons",
+                            "Sambar",
+                            "Argali"
+                        ]
+                    },
+                    "illegal_to_own": {
+                        "SS": [
+                            "Raccoon dogs and free-roaming wildlife may not be kept as pets"
+                        ]
+                    },
+                    "permits_required": {
+                        "SS": [
+                            "Felidae family",
+                            "Canidae family",
+                            "Ursidae family",
+                            "Mustelidae family",
+                            "Hyanidae family",
+                            "Tapiridae family",
+                            "Rhinocerotidae family",
+                            "All artiodactyla",
+                            "African elephants",
+                            "Asian elephants",
+                            "Primates"
+                        ]
+                    },
+                    "state_statutes": {
+                        "M": {
+                            "South Dakota Administrative Rules Section 12:68:18:03": {
+                                "M": {
+                                    "title": {
+                                        "S": "South Dakota Administrative Rules Section 12:68:18:03"
+                                    },
+                                    "url": {
+                                        "S": "http://sdlegislature.gov/rules/DisplayRule.aspx?Rule=12:68:18:03"
+                                    }
+                                }
+                            },
+                            "South Dakota Administrative Rules Section 12:68:18:03.01": {
+                                "M": {
+                                    "title": {
+                                        "S": "South Dakota Administrative Rules Section 12:68:18:03.01"
+                                    },
+                                    "url": {
+                                        "S": "http://sdlegislature.gov/rules/DisplayRule.aspx?Rule=12:68:18:03.01"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "state": {
+                        "S": "Tennessee"
+                    },
+                    "legal_to_own": {
+                        "SS": [
+                            "Bovidae not otherwise listed",
+                            "Hamsters",
+                            "Primates not otherwise listed",
+                            "Chipmunks",
+                            "Cervidae, except for white-tailed deer and wild elk",
+                            "Guinea pigs",
+                            "Mice",
+                            "Guanacos, vicunas",
+                            "Captive-bred elk not within the eastern grand division of the state",
+                            "Shrews",
+                            "Alpacas",
+                            "Rats",
+                            "Hares",
+                            "Sheep",
+                            "Rabbits",
+                            "Squirrels",
+                            "Equidae",
+                            "Hybrids resulting from a cross between a Class II and a domestic animal or Class III species",
+                            "Nonpoisonous reptiles and amphibians, except caimans and gavials",
+                            "Bison",
+                            "Marsupials",
+                            "Semi-domestic hogs",
+                            "All aquarium fish",
+                            "Common domestic farm animals",
+                            "Moles",
+                            "Chinchillas",
+                            "Goats",
+                            "Bobcat and domestic cat hybrids",
+                            "Avian species not otherwise listed, excluding North American game birds, ostriches, and\n                    cassowary",
+                            "Giraffes",
+                            "Gerbils",
+                            "Ferrets",
+                            "Llamas",
+                            "Camels"
+                        ]
+                    },
+                    "illegal_to_own": {
+                        "SS": [
+                            "Wild turkeys",
+                            "Black bears",
+                            "Hybrids of a Class IV species, other than a bobcat",
+                            "White-tailed deer"
+                        ]
+                    },
+                    "permits_required": {
+                        "SS": [
+                            "Wolves",
+                            "Bears",
+                            "Lions",
+                            "Tigers",
+                            "Leopards",
+                            "Jaguars",
+                            "Cheetahs",
+                            "Cougars",
+                            "Elephants",
+                            "Rhinoceros",
+                            "Hippopotamuses",
+                            "African buffalo",
+                            "Crocodiles",
+                            "Alligators",
+                            "All poisonous snakes"
+                        ]
+                    },
+                    "state_statutes": {
+                        "M": {
+                            "Tennessee Code Section 70-4-401": {
+                                "M": {
+                                    "title": {
+                                        "S": "Tennessee Code Section 70-4-401"
+                                    },
+                                    "url": {
+                                        "S": "https://codes.findlaw.com/tn/title-70-wildlife-resources/tn-code-sect-70-4-401.html"
+                                    }
+                                }
+                            },
+                            "Tennessee Code Section 70-4-403": {
+                                "M": {
+                                    "title": {
+                                        "S": "Tennessee Code Section 70-4-403"
+                                    },
+                                    "url": {
+                                        "S": "https://codes.findlaw.com/tn/title-70-wildlife-resources/tn-code-sect-70-4-403.html"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "state": {
+                        "S": "Texas"
+                    },
+                    "legal_to_own": {
+                        "SS": [
+                            "If an animal isn't banned or required to have a permit, it can be held as a pet. However, no\n                person can possess more than six of any kind of animal, and no more than 25 nongame wildlife\n                animals at any given time. Captive-bred coatimundi may be kept as pets, but proof of legal\n                acquisition is required. Permits are not required in any county west of the Pecos River with a\n                population under 25,000"
+                        ]
+                    },
+                    "illegal_to_own": {
+                        "SS": [
+                            "Bats",
+                            "Diamondback terrapins",
+                            "Indigenous birds",
+                            "Wolves"
+                        ]
+                    },
+                    "permits_required": {
+                        "SS": [
+                            "Lions",
+                            "Tigers",
+                            "Ocelots",
+                            "Cougars",
+                            "Leopards",
+                            "Cheetahs",
+                            "Jaguars",
+                            "Bobcats",
+                            "Lynx",
+                            "Bears",
+                            "Coyotes",
+                            "Jackals",
+                            "Baboons",
+                            "Chimpanzees",
+                            "Orangutans",
+                            "Gorillas",
+                            "Hybrids"
+                        ]
+                    },
+                    "state_statutes": {
+                        "M": {
+                            "Texas Code Section 822.101": {
+                                "M": {
+                                    "title": {
+                                        "S": "Texas Code Section 822.101"
+                                    },
+                                    "url": {
+                                        "S": "https://codes.findlaw.com/tx/health-and-safety-code/health-safety-sect-822-101.html"
+                                    }
+                                }
+                            },
+                            "Texas Code Section 240.001": {
+                                "M": {
+                                    "title": {
+                                        "S": "Texas Code Section 240.001"
+                                    },
+                                    "url": {
+                                        "S": "https://codes.findlaw.com/tx/local-government-code/loc-gov-t-sect-240-001.html"
+                                    }
+                                }
+                            },
+                            "Texas Parks and Wildlife Code - Parks and Wildlife section 65.005": {
+                                "M": {
+                                    "title": {
+                                        "S": "Texas Parks and Wildlife Code - Parks and Wildlife section 65.005"
+                                    },
+                                    "url": {
+                                        "S": "https://codes.findlaw.com/tx/parks-and-wildlife-code/parks-wild-sect-65-005.html"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "state": {
+                        "S": "Utah"
+                    },
+                    "legal_to_own": {
+                        "SS": [
+                            "Aquarium fish purchased from a legal source",
+                            "Ferrets or polecats",
+                            "Brine shrimp, within certain rules",
+                            "Fowl",
+                            "Hamsters",
+                            "Cattle",
+                            "Cassowaries",
+                            "Guinea pigs",
+                            "Pigeons",
+                            "Ostriches",
+                            "Alligators",
+                            "American minks",
+                            "Privately owned, pen-raised domestic turkeys",
+                            "European rabbits",
+                            "Domesticated swine",
+                            "American bison",
+                            "Yaks, zebus, or brahmas",
+                            "Peafowl",
+                            "Water buffalo",
+                            "Alpacas",
+                            "Domesticated ducks morphologically distinguishable",
+                            "Sheep",
+                            "Horses",
+                            "Hedgehogs",
+                            "Llamas",
+                            "Chicken",
+                            "Tenrecs",
+                            "Mules and hinnies",
+                            "Domestic cat breeds recognized by The International Cat Association as Preliminary New,\n                    Advanced New, Non-championship, and Championship breeds",
+                            "Domestic dogs, including hybrids between wild and domestic species and subspecies",
+                            "Domesticated geese",
+                            "House mice",
+                            "Domesticated elk",
+                            "Sugar gliders",
+                            "Asses or donkeys",
+                            "Chinchillas",
+                            "Goats",
+                            "Norway and black rats",
+                            "Emus",
+                            "Rheas",
+                            "Gerbils",
+                            "Foxes that are privately owned, domestically bred, and raised",
+                            "Camels"
+                        ]
+                    },
+                    "illegal_to_own": {
+                        "SS": [
+                            "Mojave rattlesnakes",
+                            "Cougars",
+                            "Cottontail and snowshoe rabbits",
+                            "Desert rats",
+                            "Pronghorn antelopes",
+                            "Mojave Desert sidewinders",
+                            "Dingos",
+                            "Utah milk snakes",
+                            "Lynx",
+                            "Foxes",
+                            "Weasels",
+                            "Martens",
+                            "Leopards",
+                            "Black-footed ferrets",
+                            "Bears",
+                            "Moose",
+                            "Jackals",
+                            "Mule deer",
+                            "Piranhas",
+                            "Badgers",
+                            "Bighorn sheep",
+                            "Jaguars",
+                            "Ocelots",
+                            "Elks",
+                            "Minks",
+                            "Bison",
+                            "Ringtails",
+                            "Cheetahs",
+                            "Banded Gila monsters",
+                            "Glen Canyon and Western chuckwallas",
+                            "Utah mountain kingsnakes",
+                            "Speckled rattlesnakes",
+                            "Venomous fish",
+                            "Merriam kangaroo rats",
+                            "Prairie dogs",
+                            "Desert tortoises",
+                            "Skunks",
+                            "Coyotes",
+                            "Albert's squirrels",
+                            "Wolves",
+                            "Bats",
+                            "Primates",
+                            "Desert glossy snakes",
+                            "River otters",
+                            "Desert iguanas",
+                            "Lions",
+                            "Tigers",
+                            "Servals",
+                            "Rocky mountain goats",
+                            "African wild dogs",
+                            "Sonoran lyre snakes"
+                        ]
+                    },
+                    "permits_required": {
+                        "SS": [
+                            "Desert night lizards",
+                            "Mojave zebra-tailed lizards",
+                            "Utah banded geckos",
+                            "Utah night lizards",
+                            "California kingsnakes",
+                            "Great Plains rat snakes",
+                            "Mojave patch-nosed snakes",
+                            "Utah blind snakes",
+                            "Western rattlesnakes"
+                        ]
+                    },
+                    "state_statutes": {
+                        "M": {
+                            "Utah Administrative Rules Section 657-3": {
+                                "M": {
+                                    "title": {
+                                        "S": "Utah Administrative Rules Section 657-3"
+                                    },
+                                    "url": {
+                                        "S": "https://wildlife.utah.gov/r657-3.html"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "state": {
+                        "S": "Vermont"
+                    },
+                    "legal_to_own": {
+                        "SS": [
+                            "Sugar gliders",
+                            "Hamsters",
+                            "Alligator lizards",
+                            "Monitors",
+                            "Captive-bred African pygmy hedgehogs",
+                            "Pigeons",
+                            "Domestic cat hybrids F4 or later",
+                            "Geckos",
+                            "Agoutis",
+                            "Tegus",
+                            "Many kinds of boas and pythons",
+                            "Gerbils",
+                            "Collared lizards",
+                            "Domesticated mice and rats"
+                        ]
+                    },
+                    "illegal_to_own": {
+                        "SS": [
+                            "Old world swine",
+                            "Feral swine",
+                            "Wild boars",
+                            "Wild hogs",
+                            "Wild swine",
+                            "Feral hogs",
+                            "Russian wild boars",
+                            "Eurasian wild boars",
+                            "Feral pigs",
+                            "Razorbacks"
+                        ]
+                    },
+                    "permits_required": {
+                        "SS": [
+                            "Mole salamanders",
+                            "Hellbenders",
+                            "American giant salamanders",
+                            "Northern dusky salamanders",
+                            "Eastern newts",
+                            "Canary Island lizards",
+                            "Water pythons",
+                            "Anacondas",
+                            "Russell's sand boas",
+                            "Burmese pythons",
+                            "Reticulated pythons",
+                            "Brown tree snakes",
+                            "False vipers",
+                            "False water cobras",
+                            "Eastern milk snakes",
+                            "Crayfish",
+                            "Hobo spiders",
+                            "Recluse spiders",
+                            "Bark scorpions",
+                            "Five-keeled gold scorpions",
+                            "Yellow-legged creeping scorpions"
+                        ]
+                    },
+                    "state_statutes": {
+                        "M": {
+                            "Vermont Statutes Section 4709": {
+                                "M": {
+                                    "title": {
+                                        "S": "Vermont Statutes Section 4709"
+                                    },
+                                    "url": {
+                                        "S": "https://codes.findlaw.com/vt/title-10-conservation-and-development/vt-st-tit-10-sect-4709.html"
+                                    }
+                                }
+                            },
+                            "Importation & Possession Rules Unrestricted Wild Animal List": {
+                                "M": {
+                                    "title": {
+                                        "S": "Importation & Possession Rules Unrestricted Wild Animal List"
+                                    },
+                                    "url": {
+                                        "S": "https://vtfishandwildlife.hosted.civiclive.com/UserFiles/Servers/Server_73079/File/Learn%20More/Living%20with%20Wildlife/Importation/Unrestricted_Wild_Animal_List.pdf"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "state": {
+                        "S": "Virginia"
+                    },
+                    "legal_to_own": {
+                        "SS": [
+                            "Dogs, including wolf hybrids",
+                            "Hamsters",
+                            "Cattle",
+                            "Chickens",
+                            "Guinea pigs",
+                            "Horses, including hybrids",
+                            "Pigeons",
+                            "Asses",
+                            "Geese",
+                            "Guinea fowl",
+                            "Minks, where adults are heavier than 1.15 kilograms or their coat color can be distinguished\n                    from wild mink",
+                            "Mice",
+                            "Native or naturalized albino amphibians or albino reptiles",
+                            "Peafowl",
+                            "Cats, including hybrids with wild felines",
+                            "Sheep, including hybrids with wild sheep",
+                            "Alpacas",
+                            "Swine, including pot-bellied pigs and excluding any wild swine",
+                            "Rats",
+                            "Llamas",
+                            "Ducks",
+                            "Burros",
+                            "Donkeys",
+                            "Goats",
+                            "Chinchillas",
+                            "Turkeys",
+                            "European rabbits",
+                            "Gerbils",
+                            "Camels"
+                        ]
+                    },
+                    "illegal_to_own": {
+                        "SS": [
+                            "Virginia does not specifically prohibit any animals from being pets. However, permits may be\n                difficult to obtain"
+                        ]
+                    },
+                    "permits_required": {
+                        "SS": [
+                            "Pigs",
+                            "Hogs",
+                            "Wild dogs",
+                            "Wolves",
+                            "Coyotes",
+                            "Jackals",
+                            "Foxes",
+                            "Bears",
+                            "Raccoons",
+                            "Weasels",
+                            "Badgers",
+                            "Skunks",
+                            "Otters",
+                            "Ferrets",
+                            "Mongooses",
+                            "Hyenas",
+                            "Aardwolves",
+                            "Bats",
+                            "Prairie dogs",
+                            "Alligators",
+                            "Crocodiles",
+                            "Caimans",
+                            "Gavials",
+                            "Brown tree snakes",
+                            "Cane toads",
+                            "African dwarf frogs",
+                            "African clawed frogs",
+                            "Mole salamanders",
+                            "Monk parakeets",
+                            "Mute swans",
+                            "Modoc suckers",
+                            "Warner suckers",
+                            "Darters",
+                            "Round goby",
+                            "Piranhas",
+                            "Walking catfish",
+                            "Swamp eels"
+                        ]
+                    },
+                    "state_statutes": {
+                        "M": {
+                            "Virginia Administrative Code 4/15-20-50": {
+                                "M": {
+                                    "title": {
+                                        "S": "Virginia Administrative Code 4/15-20-50"
+                                    },
+                                    "url": {
+                                        "S": "http://law.lis.virginia.gov/admincode/title4/agency15/chapter20/section50/"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "state": {
+                        "S": "Washington"
+                    },
+                    "legal_to_own": {
+                        "SS": [
+                            "Washington does not specifically list any allowed exotic pets but does list pets that are\n                prohibited"
+                        ]
+                    },
+                    "illegal_to_own": {
+                        "SS": [
+                            "Elephants",
+                            "Bushmasters",
+                            "Crocodiles",
+                            "Snow leopards",
+                            "Captive-bred cougars",
+                            "Crocodile monitors",
+                            "Alligators",
+                            "Australian tiger snakes",
+                            "Caimans",
+                            "Atractaspidae",
+                            "Rattlesnakes",
+                            "Mambas",
+                            "Water monitors",
+                            "Leopards",
+                            "Non-human primates",
+                            "Bears",
+                            "Cobras",
+                            "Jaguars",
+                            "Elks",
+                            "Clouded leopards",
+                            "Gavials",
+                            "Cheetahs",
+                            "Hyenas",
+                            "Gaboon vipers",
+                            "Coral snakes",
+                            "Cottonmouths",
+                            "Sea snakes",
+                            "Bobcats",
+                            "Wolves",
+                            "Kraits",
+                            "Lions",
+                            "Puff adders",
+                            "Rhinoceros",
+                            "Dispholidus",
+                            "Tigers"
+                        ]
+                    },
+                    "permits_required": {
+                        "SS": [
+                            "Washington does not have possession permits for pets"
+                        ]
+                    },
+                    "state_statutes": {
+                        "M": {
+                            "Washington Code Section 16.30.005": {
+                                "M": {
+                                    "title": {
+                                        "S": "Washington Code Section 16.30.005"
+                                    },
+                                    "url": {
+                                        "S": "https://codes.findlaw.com/wa/title-16-animals-and-livestock/wa-rev-code-16-30-005.html"
+                                    }
+                                }
+                            },
+                            "Washington Code Section 16.30.010": {
+                                "M": {
+                                    "title": {
+                                        "S": "Washington Code Section 16.30.010"
+                                    },
+                                    "url": {
+                                        "S": "https://codes.findlaw.com/wa/title-16-animals-and-livestock/wa-rev-code-16-30-010.html"
+                                    }
+                                }
+                            },
+                            "Washington Administrative Code section 220-400": {
+                                "M": {
+                                    "title": {
+                                        "S": "Washington Administrative Code section 220-400"
+                                    },
+                                    "url": {
+                                        "S": "https://apps.leg.wa.gov/wac/default.aspx?cite=220-400"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "state": {
+                        "S": "West Virginia"
+                    },
+                    "legal_to_own": {
+                        "SS": [
+                            "Unless an animal is specifically banned in West Virginia, it can be kept without a permit, so\n                long as it isn't considered a wild animal or wild bird"
+                        ]
+                    },
+                    "illegal_to_own": {
+                        "SS": [
+                            "Gray wolves",
+                            "Elephants",
+                            "Bears, except black bears",
+                            "Snow leopards",
+                            "Common wooly monkeys",
+                            "Night monkeys",
+                            "Lynxes and domestic hybrids",
+                            "Fox skunk",
+                            "Cougars and domestic hybrids",
+                            "Leopards",
+                            "Cheetahs and domestic hybrids",
+                            "Lemurs",
+                            "Raccoon",
+                            "Spider monkeys",
+                            "Jaguars",
+                            "Clouded leopards",
+                            "Goeldi's monkeys",
+                            "Hyenas",
+                            "Uakaris",
+                            "Howler monkeys",
+                            "Cape buffalo",
+                            "Caracals and domestic hybrids",
+                            "Tamarins",
+                            "Muriquis",
+                            "Nonhuman primates except:\n                    \nLemurs\nTamarins\nNight monkeys\nTiti monkeys\nMuriquis\nGoeldi's monkeys\nSakis\nUakaris\nSpider monkeys\nCommon wooly monkeys\nHowler monkeys\nRaccoon\nFox skunk",
+                            "Sakis",
+                            "Hippopotamus",
+                            "Titi monkeys",
+                            "Lions",
+                            "Rhinoceros",
+                            "Komodo dragons",
+                            "Tigers",
+                            "Sunda clouded leopards",
+                            "African wild dogs"
+                        ]
+                    },
+                    "permits_required": {
+                        "SS": [
+                            "Permits may be obtained for dangerous non-native wild animals owned prior to 06/01/2015. Pet\n                Permits are needed to keep wild animals or birds acquired from a commercial dealer"
+                        ]
+                    },
+                    "state_statutes": {
+                        "M": {
+                            "West Virginia Code Section 19-34-1": {
+                                "M": {
+                                    "title": {
+                                        "S": "West Virginia Code Section 19-34-1"
+                                    },
+                                    "url": {
+                                        "S": "https://codes.findlaw.com/wv/chapter-19-agriculture/wv-code-sect-19-34-1.html"
+                                    }
+                                }
+                            },
+                            "West Virginia Code Section 20-2-51": {
+                                "M": {
+                                    "title": {
+                                        "S": "West Virginia Code Section 20-2-51"
+                                    },
+                                    "url": {
+                                        "S": "https://codes.findlaw.com/wv/chapter-20-natural-resources/wv-code-sect-20-2-51.html"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "state": {
+                        "S": "Wisconsin"
+                    },
+                    "legal_to_own": {
+                        "SS": [
+                            "Opossums",
+                            "Voles",
+                            "Chipmunks",
+                            "Shrews",
+                            "Moles",
+                            "Porcupine",
+                            "Arthropods",
+                            "Starlings",
+                            "Pigeons",
+                            "Pocket gophers",
+                            "Ground squirrels",
+                            "Rats",
+                            "Mollusks",
+                            "Red squirrels",
+                            "Mice",
+                            "Weasels",
+                            "English sparrows"
+                        ]
+                    },
+                    "illegal_to_own": {
+                        "SS": [
+                            "Wolves and hybrids",
+                            "Wild or native reptiles",
+                            "Cougars",
+                            "Wild swine",
+                            "Bears",
+                            "Nonnative wild ducks, geese, and swans",
+                            "Mute swans",
+                            "Wild or native amphibians"
+                        ]
+                    },
+                    "permits_required": {
+                        "SS": [
+                            "Wisconsin does not have exotic pet permits"
+                        ]
+                    },
+                    "state_statutes": {
+                        "M": {
+                            "Wisconsin Statutes Section 169.01": {
+                                "M": {
+                                    "title": {
+                                        "S": "Wisconsin Statutes Section 169.01"
+                                    },
+                                    "url": {
+                                        "S": "https://codes.findlaw.com/wi/police-regulations-ch-163-to-177/wi-st-169-01.html"
+                                    }
+                                }
+                            },
+                            "Wisconsin Statutes Section 169.04": {
+                                "M": {
+                                    "title": {
+                                        "S": "Wisconsin Statutes Section 169.04"
+                                    },
+                                    "url": {
+                                        "S": "https://codes.findlaw.com/wi/police-regulations-ch-163-to-177/wi-st-169-04.html"
+                                    }
+                                }
+                            },
+                            "Wisconsin Statutes Section 169.11": {
+                                "M": {
+                                    "title": {
+                                        "S": "Wisconsin Statutes Section 169.11"
+                                    },
+                                    "url": {
+                                        "S": "https://codes.findlaw.com/wi/police-regulations-ch-163-to-177/wi-st-169-11.html"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "state": {
+                        "S": "Wyoming"
+                    },
+                    "legal_to_own": {
+                        "SS": [
+                            "Muscovy ducks",
+                            "Hinnies",
+                            "Hamsters",
+                            "Cattle",
+                            "Chickens",
+                            "Swan geese",
+                            "Pigeons",
+                            "Guinea pigs",
+                            "Ostriches",
+                            "Camels",
+                            "Predacious birds",
+                            "Guinea fowl",
+                            "Mice",
+                            "European rabbits",
+                            "Mules",
+                            "Porcupines",
+                            "Cage and aviary birds",
+                            "Peafowl",
+                            "Alpacas",
+                            "Vicunas",
+                            "Cats",
+                            "Ponies",
+                            "Rats",
+                            "Sheep",
+                            "Horses",
+                            "Dogs",
+                            "Raccoons",
+                            "Bison",
+                            "Llamas",
+                            "Ferrets",
+                            "Red foxes",
+                            "Burros",
+                            "Yaks",
+                            "Skunks",
+                            "Coyotes",
+                            "Donkeys",
+                            "Mallard ducks",
+                            "Chinchillas",
+                            "Goats",
+                            "Greylag geese",
+                            "Turkeys",
+                            "Jackrabbits",
+                            "Swine",
+                            "Emus",
+                            "Rheas",
+                            "Gerbils",
+                            "Asses"
+                        ]
+                    },
+                    "illegal_to_own": {
+                        "SS": [
+                            "Gray wolves",
+                            "Wolves and wolf hybrids",
+                            "Mountain lions",
+                            "Big or trophy game",
+                            "Black bears",
+                            "Grizzly bears"
+                        ]
+                    },
+                    "permits_required": {
+                        "SS": [
+                            "Permits are required to keep any living wildlife as pets that aren't specifically listed as\n                allowed without permits"
+                        ]
+                    },
+                    "state_statutes": {
+                        "M": {
+                            "Wyoming Statutes Section 23-1-101": {
+                                "M": {
+                                    "title": {
+                                        "S": "Wyoming Statutes Section 23-1-101"
+                                    },
+                                    "url": {
+                                        "S": "https://codes.findlaw.com/wy/title-23-game-and-fish/wy-st-sect-23-1-103.html"
+                                    }
+                                }
+                            },
+                            "Wyoming Rules and Regulations 040.0001.52 section 5": {
+                                "M": {
+                                    "title": {
+                                        "S": "Wyoming Rules and Regulations 040.0001.52 section 5"
+                                    },
+                                    "url": {
+                                        "S": "https://wgfd.wyo.gov/Regulations/Regulation-PDFs/Regulations_Ch52.pdf"
+                                    }
+                                }
+                            },
+                            "Wyoming Regulations Chapeter 10": {
+                                "M": {
+                                    "title": {
+                                        "S": "Wyoming Regulations Chapeter 10"
+                                    },
+                                    "url": {
+                                        "S": "https://wgfd.wyo.gov/Regulations/Regulation-PDFs/REGULATIONS_CH10"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
